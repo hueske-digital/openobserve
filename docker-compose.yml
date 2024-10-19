@@ -12,6 +12,8 @@ services:
       - ZO_TELEMETRY=false
     volumes:
       - app_data:/data
+    networks:
+      - proxy_apps
 volumes:
   app_data:
 
