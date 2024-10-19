@@ -19,3 +19,5 @@ volumes:
 
 networks:
   proxy_apps:
+    name: proxy_apps
+    external: true
